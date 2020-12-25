@@ -93,6 +93,7 @@ class style_transfer_cam():
                        write_to = None):
         
         source_image = cv2.imread(source_path)
+        source_image = cv2.resize(source_image, self.cam_size)
         stylized = style_transfer(source_image, style_path = style_path, hub_module=self.hub_module)
         cv2.imshow('Stylized', stylized)
         if write_to is not None:
