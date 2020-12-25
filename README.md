@@ -29,6 +29,6 @@ In a terminal, run `python NST_GUI.py` to launch the GUI.
 <img src = './Samples/tt4.jpg' height="320" width="240">
 ## Web cam examples
 Video examples here are done with cpu, so fps is low. A GPU will help get a true real time result.
-<video src="./Samples/v2_trimed.mp4" width="240" height="320" controls preload></video>
+<video src="./Samples/v2.mp4" width="240" height="320" controls preload></video>
 
 Feel free to expand and develop upon this shabby base.
