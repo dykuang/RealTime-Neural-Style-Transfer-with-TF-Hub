@@ -25,12 +25,13 @@ In a terminal, run `python NST_GUI.py` to launch the GUI.
 
 ## Image examples
 <img src = './Samples/tt.png' height="320" width="240"><img src = './Samples/tt1.jpg' height="320" width="240">
-<img src = './Samples/tt2.jpg' height="320" width="240"><img src = './Samples/tt3.jpg' height="320" width="240">
-<img src = './Samples/tt4.jpg' height="320" width="240">
+<img src = './Samples/tt2.jpg' height="320" width="240">   <img src = './Samples/tt3.jpg' height="320" width="240">
+<img src = './Samples/tt4.jpg' height="320" width="240"><img src = './Samples/tt6.png' height="320" width="240">
 ## Web cam examples
 Video examples here are done with cpu, so fps is low. A GPU will help get a true real time result.  
-<img src="/Samples/v1.gif" width="480" height="360">
-<img src="/Samples/v2.gif" width="480" height="360">
-<img src="/Samples/v3.gif" width="480" height="360">
+<img src="/Samples/v1.gif" width="400" height="300">
+<img src="/Samples/v2.gif" width="400" height="300">  
+<img src="/Samples/v3.gif" width="400" height="300">
+<img src="/Samples/v4.gif" width="400" height="300">  
 
 Feel free to expand and develop upon this repo and have fun.
