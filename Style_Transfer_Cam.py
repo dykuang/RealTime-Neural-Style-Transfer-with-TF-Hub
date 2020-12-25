@@ -49,7 +49,8 @@ class style_transfer_cam():
         
         if write_to is not None:
             codec = cv2.VideoWriter_fourcc(*'DIVX') # *'MP4V', *'DIVX', ... platform dependent
-            writer= cv2.VideoWriter(write_to, codec, 30)
+            writer= cv2.VideoWriter(write_to, codec, 30, self.cam_size)
+            print('Writing to {}.'.format(write_to))
             
         while True:
 
@@ -66,6 +67,9 @@ class style_transfer_cam():
             
             cv2.imshow('Camera View', frameClone)
             
+            if write_to is not None:
+                writer.write(frameClone)
+            
             if self._platform in ['linux', 'linux2']:
                 try:
                     import pyfakewebcam
@@ -79,7 +83,7 @@ class style_transfer_cam():
             
             if cv2.waitKey(interval) & 0xFF == ord('q'):
                 break
-        
+                    
         feed.release()
         if write_to is not None:
             writer.release()

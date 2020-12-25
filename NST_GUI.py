@@ -148,3 +148,4 @@ def make_gui():
     
 if __name__ == '__main__':
     mw = make_gui()
+    print(mw.save_file.get())
