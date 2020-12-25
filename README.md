@@ -19,8 +19,8 @@ steps on this cool project: [Avatarify](https://github.com/alievk/avatarify).
 * Type in the path to your style image to use.    
 * If you want to save the rendered result, also type in the file name you want to save.    
 
-Some sample style images are included in `./style_images`. If you want to use some other styles, just specify 
-the path to the image whose style you would like to transfer in the GUI entry.
+Some sample style images are included in `./style_images`. If you want to use some other styles, just 
+delete the default path and then specify the path to the image whose style you would like to transfer in the GUI entry.
 In a terminal, run `python NST_GUI.py` to launch the GUI.  
 
 ## Image examples
@@ -28,7 +28,7 @@ In a terminal, run `python NST_GUI.py` to launch the GUI.
 <img src = './Samples/tt2.jpg' height="320" width="240"><img src = './Samples/tt3.jpg' height="320" width="240">
 <img src = './Samples/tt4.jpg' height="320" width="240">
 ## Web cam examples
-Video examples here are done with cpu, so fps is low. A GPU will help get a true real time result.
-<video src="./Samples/v2.mp4" width="240" height="320" controls preload></video>
+Video examples here are done with cpu, so fps is low. A GPU will help get a true real time result.  
+<video src="./Samples/v2.mp4" width="3200" height="240" controls preload></video>
 
 Feel free to expand and develop upon this shabby base.
