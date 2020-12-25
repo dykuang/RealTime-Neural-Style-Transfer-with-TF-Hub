@@ -7,7 +7,7 @@ good resources online such as [here](https://www.tensorflow.org/tutorials/genera
 
 The model can create stylized images/videos from your webcam, saved video or images. Though the code can run with a cpu, it is recommended 
 that you run with a GPU, especially for the realtime rendering with webcam input. You may also use virtual camera tools to feed the rendered 
-video from your webcam during your online meeting. For setups of these virtual cammera tools on different platform, please refer to the relevant
+video from your webcam to your online meeting. For setups of these virtual camera tools on different platform, please refer to the relevant
 steps on this cool project: [Avatarify](https://github.com/alievk/avatarify).
 
 ## Usage
@@ -28,8 +28,8 @@ In a terminal, run `python NST_GUI.py` to launch the GUI.
 <img src = './Samples/tt2.jpg' height="320" width="240"><img src = './Samples/tt3.jpg' height="320" width="240">
 <img src = './Samples/tt4.jpg' height="320" width="240">
 ## Web cam examples
-<video src="./Samples/v2.mkv" width="320" height="240" controls></video>
-
+Video examples here are done with cpu, so fps is low. A GPU will help get a true real time result.
+<video src="./Samples/v2.mp4" width="240" height="320" controls preload></video>
 
 
 
