@@ -1,2 +1,27 @@
 # RealTime-Neural-Style-Transfer-with-TF-Hub
- 
+
+The repo creates a simple Tkinter GUI for Neural style transfer task. The core of the code is by
+using this [Tensorflow Hub Model](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2). The repo
+only does forward prediction and there is no script for training or finetuning. For the latter, you will find tons of 
+good resources online such as [here](https://www.tensorflow.org/tutorials/generative/style_transfer) or [here](https://keras.io/examples/generative/neural_style_transfer/).
+
+The model can create stylized images/videos from your webcam, saved video or images. Though the code can run with a cpu, it is recommended 
+that you run with a GPU, especially for the realtime rendering with webcam input. You may also use virtual camera tools to feed the rendered 
+video from your webcam during your online meeting. For setups of these virtual cammera tools on different platform, please refer to the relevant
+steps on this cool project: [Avatarify](https://github.com/alievk/avatarify).
+
+Some sample style images are included in `./style_images`. If you want to use some other styles, just specify 
+the path to the image whose style you would like to transfer in the GUI entry.
+## Image examples
+<img src = './Samples/tt.png' height="320" width="240"><img src = './Samples/tt1.jpg' height="320" width="240">
+<img src = './Samples/tt2.jpg' height="320" width="240">
+<img src = './Samples/tt3.jpg' height="320" width="240">
+<img src = './Samples/tt4.jpg' height="320" width="240">
+## Web cam examples
+<video src="./Samples/v1.mkv" width="320" height="240" controls></video>
+
+## Usage
+The simple layout of the GUI 
+
+
+Feel free to expand this shabby base and develop your own.
