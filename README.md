@@ -10,18 +10,27 @@ that you run with a GPU, especially for the realtime rendering with webcam input
 video from your webcam during your online meeting. For setups of these virtual cammera tools on different platform, please refer to the relevant
 steps on this cool project: [Avatarify](https://github.com/alievk/avatarify).
 
+## Usage
+<img src = './Samples/layout.png' height="320" width="480">   
+
+* Select the source of video/image for the input by the radio button at top.    
+* Specify the desire size for the output.    
+* For saved radios of images, type in the path of input files.    
+* Type in the path to your style image to use.    
+* If you want to save the rendered result, also type in the file name you want to save.    
+
 Some sample style images are included in `./style_images`. If you want to use some other styles, just specify 
 the path to the image whose style you would like to transfer in the GUI entry.
+In a terminal, run `python NST_GUI.py` to launch the GUI.  
+
 ## Image examples
 <img src = './Samples/tt.png' height="320" width="240"><img src = './Samples/tt1.jpg' height="320" width="240">
-<img src = './Samples/tt2.jpg' height="320" width="240">
-<img src = './Samples/tt3.jpg' height="320" width="240">
+<img src = './Samples/tt2.jpg' height="320" width="240"><img src = './Samples/tt3.jpg' height="320" width="240">
 <img src = './Samples/tt4.jpg' height="320" width="240">
 ## Web cam examples
-<video src="./Samples/v1.mkv" width="320" height="240" controls></video>
-
-## Usage
-The simple layout of the GUI 
+<video src="./Samples/v2.mkv" width="320" height="240" controls></video>
 
 
-Feel free to expand this shabby base and develop your own.
+
+
+Feel free to expand and develop upon this shabby base.
