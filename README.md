@@ -1,7 +1,16 @@
 # RealTime-Neural-Style-Transfer-with-TF-Hub
 
 The repo creates a simple Tkinter GUI for Neural style transfer task. The core of the code is by
-using this [Tensorflow Hub Model](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2). The repo
+using this [Tensorflow Hub Model](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) based on
+```
+@article{ghiasi2017exploring,
+  title={Exploring the structure of a real-time, arbitrary neural artistic stylization network},
+  author={Ghiasi, Golnaz and Lee, Honglak and Kudlur, Manjunath and Dumoulin, Vincent and Shlens, Jonathon},
+  journal={arXiv preprint arXiv:1705.06830},
+  year={2017}
+}
+```  
+The repo here
 only does forward prediction and there is no script for training or finetuning. For the latter, you will find tons of 
 good resources online such as [here](https://www.tensorflow.org/tutorials/generative/style_transfer) or [here](https://keras.io/examples/generative/neural_style_transfer/).
 
